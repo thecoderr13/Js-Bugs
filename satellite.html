@@ -1,0 +1,245 @@
+<html>
+
+<head>
+    <title>Satellites</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="sat.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/satellite.js@4.0.0/dist/satellite.min.js"></script>
+    <script type="module" src="sat.js"></script>
+
+</head>
+
+<body >
+    <div id="particles-js" style="width: 0%; height: 0%;">
+        <canvas class="particles-js-canvas-el" width="1583" height="497" style="width: 100%; height: 100%;"></canvas>
+    </div>
+    <div id="intro_div">
+        <div id="mainheading">SATELLITES</div>
+        <img src="satelliteimg2.jpg.png" id="satellite_png">
+        <div id="description_intro">Satellites are the lifelines of modern civilization, enabling instant global communication, precise navigation, and accurate weather forecasting. They empower us to monitor and respond to natural disasters, study climate change, and explore the mysteries of space, making our world safer, more connected, and more informed.</div>
+        <div id="quote"><p>Man must rise above the Earth -- to the top of the atmosphere and beyond -- for only thus will he fully understand the world in which he lives.</p>
+        <p id="author">-Socrates</p></div>
+       
+    </div>
+    <script src="particles.js-master/particles.js"></script>
+    <script src="particles.js-master/demo/js/app.js"></script>
+       
+      
+       <div id="classification">
+      Satellites can be Classified as
+       </div>
+       <div id="orbit"> <div id="big_orbit">By Orbit</div>
+        <ul id="orbit_list">
+            <li class="orbit_ele"> Low Earth Orbit (LEO)</li>
+            <li class="orbit_ele">Medium Earth Orbit (MEO)</li>
+            <li class="orbit_ele">Geostationary Orbit (GEO)</li>
+            <li class="orbit_ele">Sun-synchronous Orbit (SSO)</li>
+            <li class="orbit_ele">Geostationary Transfer Orbit (GTO)</li>
+        </ul>
+       </div>
+       <div id="orbit_type">
+        <div class="gird-item">
+            <div class="idk">
+            <p class="orbit_type_heads">Low Earth Orbit</p>
+            <p class="orbit_type_heads"> : </p>
+            <p class="orbit_type_content">Low Earth Orbit satellites are moving at an altitude of roughly 160–1,500 kilometers above the Earth’s surface. They have a short orbital period, between 90 and 120 minutes, meaning they can travel around the planet up to 16 times a day. This makes them particularly well-suited to all types of remote sensing, high-resolution earth observation, and scientific research, as data can be acquired and transmitted rapidly.</p>
+        
+            </div>
+        </div>
+      
+       
+       <div class="gird-item">
+        <div class="idk">
+        <p class="orbit_type_heads">Medium Earth Orbit</p>
+        <p class="orbit_type_heads"> : </p>
+        <p class="orbit_type_content">A Medium Earth type of orbit is located between low Earth and geostationary orbits, typically at an altitude of about 5,000 to 20,000 kilometers. Positioning and navigation services, like GPS, extensively use MEO type of satellites. Recently, high-throughput satellite (HTS) MEO constellations have been put into operation to enable low-latency data communication to service providers, commercial and government organizations.</p>
+       </div>
+       </div>
+
+       <div class="gird-item">
+        <div class="idk">
+        <p class="orbit_type_heads">Geostationary Orbit</p>
+        <p class="orbit_type_heads"> : </p>
+        <p class="orbit_type_content">Spacecraft in geostationary Earth orbit are positioned 35,786 kilometers above Earth’s surface, precisely over the equator. Three evenly spaced machines in GEO can give nearly worldwide coverage thanks to the huge area they cover on Earth.Objects in GEO appear motionless from the ground because their orbital period is identical to Earth’s rotation — 23 hours, 56 minutes, and 4 seconds. This allows a terrestrial antenna to always point toward the same device in space.</p>
+       </div>
+       </div>
+
+       <div class="gird-item">
+        <div class="idk">
+        <p class="orbit_type_heads">Sun-synchronous Orbit</p>
+        <p class="orbit_type_heads"> : </p>
+        <p class="orbit_type_content">The Sun-synchronous orbit type of satellites goes from north to south across the polar regions at an altitude of 600 to 800 km above the Earth. The orbital inclination and altitude of SSO spacecraft are calibrated so that they always cross any given location at precisely the same local solar time. Thus, the lighting conditions are consistent for imaging, making this type of satellite ideal for earth observation and environmental monitoring.</p>
+       </div>
+       </div>
+
+       <div class="gird-item">
+        <div class="idk">
+        <p class="orbit_type_heads">Geostationary Tranfer Orbit</p>
+        <p class="orbit_type_heads"> : </p>
+        <p class="orbit_type_content">The most frequent type of satellite transfer orbit is a geostationary one utilized to migrate from a transition orbit to GEO. Spacecraft are not always placed directly into their ultimate orbit when propelled from Earth into space by launch vehicles such as Falcon 9. Rockets carrying payload to GEO drop it off at transfer orbits, which are halfway points on the path to its final position. </p>
+       </div>
+       </div>
+       </div>
+       <div id="orbit_image"></div>
+
+       <div id="use">
+        <div id="big_use">By Use</div>
+        <ul id="use_list">
+            <li class="use_ele">Global Communication Satellites</li>
+            <li class="use_ele">Earth Observation Satellites</li>
+            <li class="use_ele">Navigation Satellites</li>
+            <li class="use_ele">Astronomical Satellites</li>
+        </ul>
+       </div>
+       <div id="use_type">
+        <div class="grid-item">
+            <div class="idk">
+            <p class="use_type_heads">Global Communication</p>
+            <p class="orbit_type_heads"> : </p>
+            <p class="use_type_content">A communication spacecraft, usually located at GEO and equipped with a transponder — an integrated receiver and transmitter of radio signals — may receive signals from Earth and retransmit them back to the planet. As a result, it opens interaction channels between regions that were previously unable to communicate with one another due to large distances or other obstacles</p>
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="idk">
+            <p class="use_type_heads">Earth Observation Satellite</p>
+            <p class="orbit_type_heads"> : </p>
+            <p class="use_type_content">The purpose of Earth observation type of satellites is to monitor our planet from space and report back on any changes they observe. This type of space technology makes possible consistent and repeatable environmental monitoring as well as rapid analysis of events during emergencies like natural disasters and armed conflicts.</p>
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="idk">
+            <p class="use_type_heads">Navigation Satellite</p>
+            <p class="orbit_type_heads"> : </p>
+            <p class="use_type_content">The navigation system constellations are located between 20,000 and 37,000 kilometers from Earth’s surface. This type of satellite sends out signals that reveal their time, position in space, and health status.
+
+                Satellite navigation devices determine their location (longitude, latitude, and altitude/elevation) to high precision (within a few centimeters to meters) using time signals transmitted along a line of sight by radio from satellites. The system can be used for providing position, navigation or for tracking the position of something fitted with a receiver (satellite tracking).</p>
+            
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="idk">
+            <p class="use_type_heads">Astronomical Satellite</p>
+            <p class="orbit_type_heads"> : </p>
+            <p class="use_type_content">Basically, an astronomical satellite is a giant telescope in orbit. It is able to see well without interference from the Earth’s atmosphere, and its infrared imaging technology can function normally without being fooled by the planet’s surface temperature. The satellite type used for astronomy has a vision that is up to ten times better than the most powerful telescope on Earth.</p>
+            </div>
+        </div>
+       </div>
+
+       <div id="use_image"></div>
+       <div id="satellite_tracker_main">
+       <div id="satellite_tracker_header">Track Satelllite using Two-line Elemet Set</div>
+
+        <div id="form">
+            <form id="calc">
+              
+                <label class="formtxt">TLE-1 :</label>
+                <input type="text" id="tle1" name="tle1"><br>
+                <label class="formtxt">TLE-2 :</label>
+                <input type="text" id="tle2" name="tle2"><br>
+                <button type="button" id="sub">CALCULATE</button>
+                <button type="button" id="clr">CLEAR</button>
+                <p class="resultxt">ALTITUDE : <span id="a"></span> &nbsp; km</p>
+                <p class="resultxt">DISTANCE : <span id="d"></span> &nbsp; km</p>
+                <p class="info">Two-line elements is a standardised format used to describe the orbit of a satellite. </p>
+            </form>
+        </div>
+       </div>
+        
+    <main>
+        <div class="card">
+            <img src= "hubble2.avif" alt="Hubble Telescope" class="card-img">
+            <div class="card-content">
+                <h1 class="title">Hubble Telescope</h1>
+                <p class="sat-info">Hubble features a 2.4 m (7 ft 10 in) mirror, and its five main instruments observe in the ultraviolet, visible, and near-infrared regions of the electromagnetic spectrum. Hubble's orbit outside the distortion of Earth's atmosphere allows it to capture extremely high-resolution images with substantially lower background light than ground-based telescopes. </p>
+                <p class="tracker">Altitude:<span id="a1"></span> km</p>
+                <p class="tracker">Distance:<span id="d1"></span>km</p>
+            </div>
+
+        </div>
+        <div class="card">
+            <img src= "aqua2.jpg"alt="AQUA" class="card-img">
+            <div class="card-content">
+                <h1 class="title">AQUA</h1>
+                <p class="sat-info">Aqua (EOS PM-1) is a NASA scientific research satellite in orbit around the Earth, studying the precipitation, evaporation, and cycling of water. It is the second major component of the Earth Observing System (EOS) preceded by Terra (launched 1999) and followed by Aura (launched 2004).It has demonstrated a very high level of precision in making the primary long-term measurements of the mission. These highly calibrated climate quality measurements of radiance, reflectance, and backscatter have been used to cross-calibrate past and present sensors launched by NASA, as well as a variety of sensors launched from other agencies and the international community</p>
+                <p class="tracker">Altitude:<span id="a2"></span></p>
+                <p class="tracker">Distance:<span id="d2"></span></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="aura2.jpg" alt="AURA" class="card-img">
+            <div class="card-content">
+            <h1 class="title">AURA</h1>
+            <p class="sat-info">Aura (EOS CH-1) is a multi-national NASA scientific research satellite in orbit around the Earth, studying the Earth's ozone layer, air quality and climate.[2] It is the third major component of the Earth Observing System (EOS) following on Terra (launched 1999) and Aqua (launched 2002). Aura follows on from the Upper Atmosphere Research Satellite (UARS). Aura is a joint mission between NASA, the Netherlands, Finland, and the U.K.[3] The Aura spacecraft is healthy and is expected to operate until at least 2023, likely beyond.</p>
+            <p class="tracker">Altitude:<span id="a3"></span></p>
+            <p class="tracker">Distance:<span id="d3"></span></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="swift2.jpg" alt="SWIFT" class="card-img">
+            <div class="card-content">
+              <h1 class="title">Neil Gehrels Swift Observatory</h1>
+              <P class="sat-info">With Swift, a NASA mission with international participation, scientists have a tool dedicated to solving the gamma-ray burst mystery. Its three instruments give scientists the ability to scrutinize gamma-ray bursts like never before. Within seconds of detecting a burst, Swift relays its location to ground stations, allowing both ground-based and space-based telescopes around the world the opportunity to observe the burst's afterglow. </P>
+              <p class="tracker">Altitude:<span id="a4"></span></p>
+                <p class="tracker">Distance:<span id="d4"></span></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="terra2.jpg"  alt="TERRA" class="card-img">
+            <div class="card-content">
+               <h1 class="title">TERRA</h1>
+               <p class="sat-info">Terra (EOS AM-1) is a multi-national scientific research satellite operated by NASA in a Sun-synchronous orbit around the Earth. It takes simultaneous measurements of Earth's atmosphere, land, and water to understand how Earth is changing and to identify the consequences for life on Earth.[1] It is the flagship of the Earth Observing System (EOS) and the first satellite of the system which was followed by Aqua (launched in 2002) and Aura (launched in 2004). </p>
+               <p class="tracker">Altitude:<span id="a5"></span></p>
+               <p class="tracker">Distance:<span id="d5"></span></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src= "tdrs132.jpg" alt="TDRS-13" class="card-img">
+            <div class="card-content">
+                <h1 class="title">Tracking and Data Relay System-13</h1>
+                <P class="sat-info">TDRS-13, known before launch as TDRS-M, is an American communications satellite operated by NASA as part of the Tracking and Data Relay Satellite System. The thirteenth Tracking and Data Relay Satellite, it is the third and final third-generation spacecraft to be launched, following the 2014 launch of TDRS-12. It carries two steerable antennas capable of providing S, Ku and Ka band communications for other spacecraft, with an additional array of S-band transponders for lower-rate communications with five further satellites</P>
+                <p class="tracker">Altitude:<span id="a6"></span></p>
+                <p class="tracker">Distance:<span id="d6"></span></p>
+            </div>
+        </div>
+    </main>
+    <div id="footer">
+        <div class="footer1">
+            <p class="footxt"><i class="glyphicon glyphicon-earphone"></i> +91 9845027056</p>
+            <p class="footxt"> <i class="fa-solid fa-location-dot"></i> St. Lusberry Road, Santa Cruz - 400047</p>
+            <p class="footxt"><i class="fa-solid fa-envelope"></i><a href="mailto:u23ai033@coed.svnit.ac.in"> astro@gmail.com</a></p>
+        </div>
+            <div class="footer1">
+            <p class="footxt"><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/nexus_svnit?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
+            </p>
+            <p class="footxt"><i class="fa-brands fa-linkedin"></i><a href=https://www.linkedin.com/company/nexus-svnit/>Linkedin</a>
+            </p>
+            <p class="footxt"><i class="fa-brands fa-youtube"></i><a href="https://youtu.be/dQw4w9WgXcQ?si=Q0cKzn-71-5k3g4t">Youtube</a></p>
+<p class="footxt"><i class="fa-brands fa-pinterest"></i><a href="https://in.pinterest.com/">Pinterest</a></p>
+<p class="footxt"><i class="fa-brands fa-twitter"></i><a href="https://x.com/?lang=en">X-twitter</a></p>
+<p class="footxt"><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/">Facebook</a></p>
+        </div>
+        <div class="footer1">
+            <p class="footxt"><a href="termsofuse.html">Terms of Use</a></p>
+            <p class="footxt"><a href="privacypolicy.html">Privacy Policy</a></p>
+
+        </div>
+        <div id="centerfoot">
+            <p class="footxt"><i class="glyphicon glyphicon-copyright-mark"></i> 2024 ASTROLITE. All rights
+                reserved.</p>
+        </div>
+    </div>
+   
+
+
+
+    
+</body>
+
+</html>

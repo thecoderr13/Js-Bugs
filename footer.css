@@ -1,0 +1,62 @@
+body,html{
+    margin:0;
+    padding:0;
+}
+#footer{
+  
+  background: rgb(0, 0, 0);
+ height:70vh;
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    align-items: center;
+    bottom:0;
+    width:100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+   
+   
+
+    
+
+}
+.footer1{
+    width:25vw;
+   
+    justify-content: center;
+}
+
+#centerfoot{
+    text-align: center;
+    width: 100%;
+    bottom:0;
+}
+a{
+    color:white;
+    text-decoration: none;
+    text-shadow: none;
+    transition:text-shadow  linear;
+}
+a:hover{
+    text-shadow: 0 0 2px #04269e,
+    0 0 5px #04269e,
+    0 0 10px  #04269e,
+    0 0 20px  #04269e,
+    0 0 40px #04269e,
+    0 0 60px #04269e,
+    0 0 80px #04269e,
+    0 0 100px #04269e;
+
+                text-decoration: none;
+                color:white;
+}
+.footxt{
+    color: white;
+    font-family:"Space Mono",monospace;
+    letter-spacing: 1vh;
+    font-weight: 300;
+    font-size: 2.5vh;
+    
+}
+

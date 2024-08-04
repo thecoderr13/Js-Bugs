@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:radial-gradient(circle,rgb(0, 5, 23),black);
+}
+h1{
+    text-align: center;
+    color:white;
+    font-size: 8vh;
+    font-family: 'Space Mono',monospace;
+    letter-spacing: 1.5vh;
+    font-weight: 800;
+    margin-bottom: 5vh;
+    transition: 0.5s;
+}
+h1:hover{
+    text-shadow: 0 0 2px #44047d,
+    0 0 5px #04269e,
+    0 0 10px #44047d,
+    0 0 20px  #04269e,
+    0 0 40px #44047d,
+    0 0 60px #04269e,
+    0 0 80px #44047d,
+    0 0 100px #04269e;
+
+}
+h2{
+    color:rgb(229, 228, 228);
+    text-align: center;
+    font-size: 6.5vh;
+    text-underline-offset: 1vh;
+    text-decoration: underline;
+    margin-bottom: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, monospace;
+    letter-spacing: 1vh;
+    font-weight: 500;
+    transition: 0.5s;
+}
+h2:hover{
+    text-shadow: 0 0 2px #049a88,
+    0 0 5px #01b768,
+    0 0 10px  #049a88,
+    0 0 20px #01b768,
+    0 0 40px  #049a88,
+    0 0 60px #01b768,
+    0 0 80px  #049a88,
+    0 0 100px#01b768;
+
+}
+h4{
+    color:white;
+
+  transition: 0.5s;
+    font-size: 4vh;
+    margin-bottom: 3vh;
+    font-family: 'Space Mono',monospace;
+    letter-spacing: 0.8vh;
+    font-weight: 500;
+}
+h4:hover{
+    text-shadow: 0 0 2px #8f04a7,
+    0 0 5px #ca0252,
+    0 0 10px #8f04a7,
+    0 0 20px#ca0252,
+    0 0 40px #8f04a7,
+    0 0 60px #ca0252,
+    0 0 80px #8f04a7,
+    0 0 100px#ca0252;
+
+}
+.content{
+    color:rgb(199, 198, 198);
+    font-size: 3vh;
+    letter-spacing: 0.3vh;
+    font-weight: 300;
+    margin-bottom: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+ol {
+    list-style-type: upper-roman; 
+}

@@ -1,0 +1,79 @@
+.shoot{
+   
+    height:300px;
+    width:6px;
+    animation: meteorshower 1.5s ease-out;
+    position: absolute;
+    left:-10px;
+    top:-300px;
+    /*background-image: url("meteor.jpeg");*/
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 20%, rgba(0, 0, 0, 0) 70%);
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 20px 15px rgba(255, 255, 255, 0.9) inset; /* Increased glow effect */
+    
+    
+
+}
+.meteor::before {
+    content: '';
+    position: absolute;
+    left:-10px;
+    top:-300px;
+    height:200px;
+    width:6px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(0, 0, 0, 0) 70%);
+    border-radius: 50%;
+  }
+  
+  .meteor::after {
+    content: '';
+    position: absolute;
+    left:-10px;
+    top:-300px;
+    height:200px;
+    width:6px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(0, 0, 0, 0) 70%);
+    border-radius: 50%;
+  }
+#div1{
+   
+    animation-delay: 100ms;
+   
+
+}
+#div2{
+   
+    animation-delay: 0ms;
+
+}
+#div3{
+   
+    animation-delay: 170ms;
+
+}
+body{
+   animation: bodyanimation 1.5s;
+}
+@keyframes bodyanimation{
+    100%{background-color:rgba(0, 0, 0, 0.949);}
+
+}
+
+@keyframes meteorshower{
+    0% {
+       transform: rotate(315deg) translate(-0%,10px);
+       opacity: 1;
+     
+       
+    }
+   
+   
+   
+    100%{
+        transform : rotate(315deg) translate(30vw,200vh);
+        opacity: 0;
+       
+    }
+
+}
